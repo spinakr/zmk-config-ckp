@@ -38,8 +38,8 @@
 		};
 		raise2 {
 			bindings = <
-				&trans &trans &trans &trans &trans &trans &trans &trans &tans &trans &trans &trans &trans &trans
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &tans &trans
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				&trans &trans &trans &trans &trans &trans &kp LEFT  &kp DOWN &kp UP  &KP RIGHT &trans &trans   &trans
 				&trans     &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans          &trans
 				&trans &trans  &trans              &trans                          &trans  &trans  &trans &trans
