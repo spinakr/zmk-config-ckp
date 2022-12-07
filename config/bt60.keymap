@@ -43,11 +43,6 @@
             key-positions = <60 61>;
             bindings = <&mo technical>;
 		};
-		combo_bracket {
-            timeout-ms = <50>;
-            key-positions = <29 26>;·‚·
-            bindings = <>;
-		}
     };
 	keymap {
 		compatible = "zmk,keymap";
