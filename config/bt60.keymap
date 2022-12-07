@@ -9,6 +9,7 @@
         norwerty_bracket_left: norwerty_bracket_left {
             label = "norwerty_bracket_left";
             compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
 			wait-ms = <0>;
 			tap-ms = <0>;
             bindings
@@ -22,6 +23,7 @@
         norwerty_bracket_right: norwerty_bracket_right {
             label = "norwerty_bracket_right";
             compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
 			wait-ms = <0>;
 			tap-ms = <0>;
             bindings
