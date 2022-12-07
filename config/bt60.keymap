@@ -53,9 +53,9 @@
 			wait-ms = <0>;
 			tap-ms = <0>;
             bindings
-                = <&macro_press &kp RCTRL>
+                = <&macro_press &kp RALT>
                 , <&macro_tap &kp RIGHT>
-                , <&macro_release &kp RCTRL>
+                , <&macro_release &kp RALT>
                 ;
         };
         vim_word_move_back: vim_word_move_back {
@@ -65,9 +65,9 @@
 			wait-ms = <0>;
 			tap-ms = <0>;
             bindings
-                = <&macro_press &kp RCTRL>
+                = <&macro_press &kp RALT>
                 , <&macro_tap &kp LEFT>
-                , <&macro_release &kp RCTRL>
+                , <&macro_release &kp RALT>
                 ;
         };
     };
