@@ -46,7 +46,7 @@
                 , <&macro_release &kp LALT>
                 ;
         };
-        vim_word_move {
+        vim_word_move: vim_word_move {
             label = "vim_word_move";
             compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
@@ -58,7 +58,7 @@
                 , <&macro_release &kp RCTRL>
                 ;
         };
-        vim_word_move_back {
+        vim_word_move_back: vim_word_move_back {
             label = "vim_word_move_back";
             compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
