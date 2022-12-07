@@ -41,7 +41,7 @@
 		combo_technical_layer {
             timeout-ms = <50>;
             key-positions = <60 61>;
-            bindings = <&mo technical>;
+            bindings = <&mo 2>;
 		};
     };
 	keymap {
