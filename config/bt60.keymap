@@ -6,8 +6,8 @@
 
 / {
 	macros {
-        eurkey_æ: eurkey_æ {
-            label = "eurkey_æ";
+        eurkey_ae: eurkey_ae {
+            label = "eurkey_ae";
             compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			wait-ms = <0>;
@@ -18,8 +18,8 @@
                 , <&macro_release &kp RALT>
                 ;
         };
-        eurkey_å: eurkey_å {
-            label = "eurkey_å";
+        eurkey_aa: eurkey_aa {
+            label = "eurkey_aa";
             compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			wait-ms = <0>;
@@ -30,8 +30,8 @@
                 , <&macro_release &kp RALT>
                 ;
         };
-        eurkey_ø: eurkey_ø {
-            label = "eurkey_ø";
+        eurkey_oe: eurkey_oe {
+            label = "eurkey_oe";
             compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			wait-ms = <0>;
@@ -149,8 +149,8 @@
 		norwegian {
 			bindings = <
 				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &eurkey_å &trans &trans
-				&trans &trans &trans &trans &trans &trans &trans  &trans &trans  &trans &eurkey_ø &eurkey_æ   &trans
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &eurkey_aa &trans &trans
+				&trans &trans &trans &trans &trans &trans &trans  &trans &trans  &trans &eurkey_oe &eurkey_ae   &trans
 				&trans   &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans       &trans
 				&trans &trans &trans             &trans                          &trans  &trans  &trans &trans
 			>;
